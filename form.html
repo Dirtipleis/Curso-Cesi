@@ -1,0 +1,111 @@
+<DOC!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html charset=utf-8">
+      <link rel="stylesheet" type="text/css" href="styleform.css">
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <title>Formulario</title>
+</head>
+
+<body>
+
+  <div class='navbar'>
+
+      <a href='index.html'>Inicio</a>&nbsp
+      <a href='expositor.html'>Expositor</a>&nbsp
+      <a href='form.html'>Contacto</a>&nbsp
+      <a href='received'>Sobre Nosotros</a>&nbsp
+      <a href='form2.html'>Consultas Rápidas</a>
+</div>
+	
+
+
+<form action="received.html" method="GET">
+<label>Nombre</label>
+<input type="text" id="nombre" name="nombre"></br></br>
+<label>Apellidos</label>
+<input type="text" id="apellidos" name="apellidos"></br></br>
+	<label>DNI</label>
+	<input type="text" id="DNI" name="DNI" minlength="9"  maxlength="9"></br></br>
+	<label>Fecha</label>
+	<input type="date" id="fecha" name="text" valuemin="1900-01-01"></br></br>
+	<label>Teléfono</label>
+	<input type="tel" id="telf"name="teléfono"  minlength="9"  maxlength="9"></br></br>
+	<label>Hora y fecha</label>
+	<input type="datetime-local" id="hora"name="hora" value="2020-05-20T00:00" max="2020-05-20T00:00"></br></br>
+	<label>Color Favorito</label>
+	<input type="color" name="color" value=""></br></br>
+    <label>Conocimientos de literatura</label>
+    <select name="Nivel">
+    	<option value="1">Ninguno</option>
+    	<option value="2">Principiante</option>
+    	<option value="3">Intermedio</option>
+    	<option value="4">Experto</option>
+    </select></br></br>
+
+   <label>Motivo de la consulta</label> 
+   <select name="motivo" id="consulta múltiple"multiple>
+    	<option value="Inf.adicional">Información adicional</option>
+    	<option value="Artistas">Artistas</option>
+    	<option value="Historia">Hisotria</option>
+    	<option value="Erratas">Erratas</option>
+    </select></br></br>
+    <label for="expositores">Selector</label>
+    <input list="expositor" name="selector" id="expositores">
+    <datalist id="expositor">
+    <option value="Cervantes">
+    <option value="Lope">
+    <option value="Góngora">
+    <option value="Quevedo">
+    <option value="Tirso">
+  </datalist></br></br>
+
+    <label>Consulta</label>
+    <input type="text" name="consulta">  </br></br>
+    <label>Rango de Presupuesto</label>
+   <input type="number" name="numero1" value="0" min="0" max="150" step="10"></br></br>
+ <label>Valoración</label>
+   <input type="range" name="numero2" value="5" min="0" max="10" step="1"></br></br>
+
+
+    <input type="hidden" name="oculto">
+
+   	<input type="submit" value="Enviar"></br>
+   	<input type="reset" value="Limpiar">
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,48 @@
+
+div.navbar{
+	background-color: #8FBC8F;
+	padding-left: 20em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: verdana ;
+	font-size: 20px;
+	border: 2px solid black;
+	text-decoration: none;
+}
+a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+.navbar {
+	margin-left: 0em;
+position: fixed;
+top: 0;
+width: 100%;
+text-decoration: none;
+}
+
+body{
+	background-color: grey;
+}
+form{
+	margin-top: 7em;
+	padding-left: 25em;
+	width: 100%;
+  max-width: 600px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input {
+  width: 40%;
+  height: 25px;
+  margin: 0.5rem;
+}
+datalist {
+  display: none;
+}
+
+}

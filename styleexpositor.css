@@ -1,0 +1,108 @@
+html{
+      background-color: grey;
+
+}
+
+
+div.navbar{
+	background-color: #8FBC8F;
+	padding-left: 20em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: verdana ;
+	font-size: 20px;
+	border: 2px solid black;
+	text-decoration: none;
+}
+a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+.navbar {
+	margin-left: 0em;
+position: fixed;
+top: 0;
+width: 100%;
+text-decoration: none;
+}
+
+ul.submenu{
+	border: 1px solid black;
+	background-color: skyblue;
+	margin-top: 7em;
+	padding-left:15em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: arial;
+	font-size: 15 px;
+	text-decoration: none;
+	overflow: hidden;
+}
+.submenu{
+	overflow: hidden;
+	position: static;
+      top: 0;
+      width: 100%;
+}
+ul{
+	color: whitesmoke;
+	list-style: none;
+
+}
+li{
+	display: inline;
+	padding-left: 5em;
+	float: left;
+      display: block;
+      color: white;
+      text-decoration: none;
+}
+
+li a:hover{
+	background-color: #ddd;
+  color: black;
+}
+h2{
+	padding-left: 22em;
+	font-family: Verdana;
+}
+
+img{
+	padding-left: 25em;
+	width: 400px;
+	height: 400px;
+}
+
+p.typewriter{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space:normal;
+  font-size: 1.2rem;
+  width: 0;
+  animation: typing 4s steps(15,end)forwards;
+  }
+
+.container{
+	display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+p.typewriter2 {
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space:normal;
+  font-size: 1.2rem;
+  width: 0;
+  animation: typing 4s steps(15,end)forwards;
+}
+
+p{
+	margin: 1em;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: justify;
+}
